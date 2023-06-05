@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Colors App</title>
+
+        <style>
+            * {font-size: 55px;}
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Holi Hai ...</h1>
+            <script>
+            function cc(){
+                let colors = ["red", "pink", "purple", "lightgreen", "lightyellow", "orange"];
+
+                let c = parseInt(Math.random()*colors.length);
+                document.body.style.backgroundColor = colors[c];
+
+            }
+            cc();
+            setInterval(cc, 5000);
+        </script>
+        </center>
+    </body>
+</html>
